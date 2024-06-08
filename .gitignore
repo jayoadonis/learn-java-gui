@@ -1,0 +1,57 @@
+## STANDARD OUTPUT FILES
+**/build/
+!**/src/**/build/
+
+**/out/
+!**/src/**/out/
+
+**/dist*/
+!**/src/**/dist*/
+
+**/bin/
+!**/src/**/bin/
+## END: STANDARD OUTPUT FILES
+
+## TEMPORARY & BACK_UP FILES
+**/tmp*/
+**/temp*/
+!**/src/**/tmp*/
+!**/src/**/temp*/
+
+**/*.tmp
+!**/src/**/*.tmp
+
+**/back-up*/
+**/bck-up*/
+!**/src/**/back-up*/
+!**/src/**/bck-up*/
+## END: TEMPORARY & BACK_UP FILES
+
+## IDEA INTELLIJ
+**/.idea*/
+!**/src/**/idea*/
+## END: IDEA INTELLIJ
+
+## GRADLE
+**/.gradle/
+!**/gradle/gradle-wrapper.jar
+!**/gradle/gradle-wrapper.properties
+## END: GRADLE
+
+## PRIVATE & SECRETS
+**/src/**/resources/**/private*/
+**/src/**/resources/**/secret*/
+
+**/[sS]ecret*/
+**/[pP]rivate*/
+
+**/secret.properties
+**/private.properties
+**/.env
+## END: PRIVATE & SECRETS
+
+
+## BEGIN: Local bat file
+**/.*.bat
+**/.*.sh
+## END: Local bat file
