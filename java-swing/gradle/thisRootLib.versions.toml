@@ -1,0 +1,15 @@
+
+[versions]
+simple-calculator="0.0.49"
+simple-spinner="0.0.15"
+
+[libraries]
+[libraries.simple-calculator]
+    group="jayo.arb.learn-j"
+    name="simple-calculator"
+    version.ref="simple-calculator"
+
+[libraries.simple-spinner]
+    group="jayo.arb.learn-j"
+    name="simple-spinner"
+    version.ref="simple-spinner"

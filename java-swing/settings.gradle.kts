@@ -1,15 +1,17 @@
 import java.text.SimpleDateFormat
 import java.util.*
 
-settings.rootProject.name = "learn-java-gui"
+settings.rootProject.name = "java-swing"
 
-settings.includeBuild("./java-swing");
-settings.include(":java-fx");
+settings.include(":simple-spinner");
+settings.include(":simple-calculator");
+//settings.includeBuild("./simple-tabular-visualizer-fifo-and-lru");
+//settings.includeBuild( "./pra-tabular-visualizer" );
 
 settings.dependencyResolutionManagement {
     this.versionCatalogs {
-        this.register("thisRootLib") {
-            this.from( files("./gradle/thisRootLib.versions.toml"));
+        this.register( "thisRootLib" ) {
+            this.from( files( "./gradle/thisRootLib.versions.toml" ) );
         }
     }
 }
@@ -43,7 +45,7 @@ settings.gradle.projectsEvaluated {
                         this.setExcludes(listOf("src/main/resources/"));
                     }
                     this.resources {
-                        this.setSrcDirs(listOf("src/main/"));
+                        this.setSrcDirs(listOf("src/main/resources/"));
                         this.setExcludes(listOf("src/main/"));
                     }
                 }

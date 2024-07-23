@@ -1,6 +1,5 @@
 ## STANDARD OUTPUT FILES
 **/build/
-java-swing/build/
 !**/src/**/build/
 
 **/out/
@@ -35,7 +34,6 @@ java-swing/build/
 
 ## GRADLE
 **/.gradle/
-java-swing/.gradle/
 !**/gradle/gradle-wrapper.jar
 !**/gradle/gradle-wrapper.properties
 ## END: GRADLE
@@ -50,8 +48,6 @@ java-swing/.gradle/
 **/secret.properties
 **/private.properties
 **/.env
-
-**/local.properties
 ## END: PRIVATE & SECRETS
 
 
@@ -60,9 +56,8 @@ java-swing/.gradle/
 **/.*.sh
 ## END: Local bat file
 
-
 ## BEGIN: MISC
-**/simple-tabular-visualizer-fifo-and-lru/
-**/student-pfcx-pra/
-**/simple-spinner/
+simple-tabular-visualizer-fifo-and-lru/
+student-pfcx-pra/
+simple-spinner/
 ## END: MISC
